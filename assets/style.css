@@ -1,0 +1,79 @@
+body {
+    background-color: #adc4da;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: teal;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 33%;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+h2 {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #adc4da;
+    text-align: center;
+    width: 70%;
+    margin-top: -17px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: linear-gradient(#008080, #71c4c4);
+}
+
+h2:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px #008080, 0 0 15px #71c4c4;
+}
+
+p {
+    text-align: center;
+}
+
+.code {
+    background-image: linear-gradient(#008080, #71c4c4);
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-user-select: all;
+    user-selct: all;
+    padding: 20px;
+}
+
+.code:hover {
+    background-image: linear-gradient(#420612, #ca7381);
+    box-shadow: inset 0px 0px 8px;
+}
+
+.contents {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: teal;
+    margin: 10px;
+    min-height: 250px;
+}

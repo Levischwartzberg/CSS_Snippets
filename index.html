@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Snippet Cheat Sheet</h1>
+        <h4> Ever have trouble remembering your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below to automatically select all of the code for you to copy.</h4>
+    </header>
+
+    <main>
+        <section class="card">
+            <div class="contents">
+                <h2>Flexbox Row</h2>
+                <p>Use these three properties to make a flexbox row layout.</p>
+                <div class="code">
+                    <code>
+                        .row { <br/>
+                            display: flex; <br/>
+                            flex-direction: row; <br/>
+                            flex-wrap: wrap; <br/>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="contents">
+                <h2>Flexbox Column</h2>
+                <p>Use these three properties to make a flexbox row layout.</p>
+                <div class="code">
+                    <code>
+                        .row { <br/>
+                            display: flex; <br/>
+                            flex-direction: column; <br/>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="contents">
+                <h2>CSS Grid Layout</h2>
+                <p>Build a 12 column layout using CSS grid.</p>
+                <div class="code">
+                    <code>
+                        .grid { <br/>
+                            display: grid; <br/>
+                            width: 100%; <br/>
+                            grid-template-columns: repeat(12, 1fr); <br/>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="contents">
+                <h2>Linear Gradients</h2>
+                <p>Use these properties to create a more dynamic background color.</p>
+                <div class="code">
+                    <code>
+                        .linear-gradient-background { <br/>
+                            background-image: linear-gradient(#008080, #71c4c4); <br/>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="contents">
+                <h2>Box Transition Glow</h2>
+                <p>Use transition and box shadow to glow on hover.</p>
+                <div class="code">
+                    <code>
+                        .code-card .card-header { <br/>
+                            border-radius: 8px; <br/>
+                            transition: all 0.5s ease-in-out; <br/>
+                        } <br/> <br/>
+                        .code-card:hover .card-header {
+                            box-shadow: inset 0px 0px 8px #008080, 0 0 15px #71c4c4;
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="contents">
+                <h2>Overlay Card With Title</h2>
+                <p>Use position properties and negative margins to adjust elements from their natural start position.</p>
+                <div class="code">
+                    <code>
+                        .card-header { <br/>
+                            positios: relative <br/>
+                            margin-top: -20px; <br/>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
