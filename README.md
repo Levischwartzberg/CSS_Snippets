@@ -6,5 +6,5 @@ This page displays css styling snippets in a manner that they are easily selecta
 
 ## Preview
 
-![Alt text](./assets/images/preview.jpg?raw=true "Preview")
+![Alt text](./assets/preview.jpg?raw=true "Preview")
 
