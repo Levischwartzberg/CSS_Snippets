@@ -21,13 +21,13 @@ main {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     .card {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .card {
         width: 100%;
     }
@@ -61,7 +61,7 @@ p {
     margin: 10px;
     border-radius: 5px;
     -webkit-user-select: all;
-    user-selct: all;
+    user-select: all;
     padding: 20px;
 }
 
